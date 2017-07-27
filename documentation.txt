@@ -1,0 +1,53 @@
+  I. Contents
+  --------
+
+  II.     Line 5  - Summary
+  III.    Line 10 - Clean a Word File
+  IV.     Line 35 - Cleaning Arbitrary HTML
+  V.      Rapid Prototyping
+  VI.     Flash Cards
+
+
+  II. Summary
+  -------
+
+  wisy-pages is an in-browser solution offering 4 features:
+    1 - Edit printable documents
+    2 - Convert Word documents to HTML
+    3 - Create flash cards and quiz yourself in-browser or physical cards
+    4 - Rapid UI Prototyping
+
+
+  How to Convert a Word Document to HTML
+  ---------------------------------------------------------
+  
+  1 - Open the Word file, save it to your local desktop as .rtf, and close it.
+  2 - Open the rtf using Word, select Save As again, and this time choose "filtered html," then close Word.
+  3 - Drag and drop the file to be cleaned or edited onto the "Choose File" button.
+      - Or click the button and select from the file explorer window.
+      - Or, if you are a meat-eating hipster, push the button in the top-right.
+  4 - The HTML markup will be displayed on the left and a preview will be displayed on the right.
+  5 - Choose one of the following four Cleaning options:
+      1 - Light
+          This option maintains Word's generated HTML and simply cleans invalid characters.
+      2 - Moderate
+          This version strips Word's generated HTML to generate pretty HTML
+          Pro: Pretty HTML
+          Con: Ruined style
+      3 - Full
+          This version strips Word's generated HTML then adds some cleanly written style in some places.
+          Pro: Pretty HTML and some style.
+          Con: Leverages opinionated atomic css rules.
+      4 - Custom / Advanced:
+          Upload a custom JS file meeting certain criteria to execute a customized clean.
+          An example custom module is included under modules/no-tables.js which replaces HTML tables with DIV tables.
+          This approach to rapid prototyping has applications outside of Word conversion.
+          Details in Section IV.
+  6 - You may click "Full Screen Preview" at any time to open a new window with an expanded preview area.
+  7 - Click "Execute Custom Script" to run custom JS code you have added to the Code Window.
+      A. When using custom scripts, you may find it useful to call renderMarkup() and renderPreview() when the script is done.
+      B. If you have any trouble using the Custom Script window, try running your code in the console.
+  8 - Click "Update Custom Style" to apply CSS rules you have added to the Code Window.
+  9 - The utility, as well as the browser itself, will log errors to the console. Click "Check for extended error data" to get some additional error data.
+  10- Click "Download Files" at any time to download the markup displayed in the bottom-left text area, the CSS in the CSS Window, and the JS in the JS Window.
+  11- Known issue: Input fields with duplicate IDs are skipped.

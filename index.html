@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="height180">
+      <div class="force-inline-block">
+        <h1>Word HTML Cleaner Utility</h1>
+        <a href="documentation.txt" target="_blank">Read the Documentation Here!</a>
+        <br>
+        <a href="https://html5.validator.nu/" target="_blank">HTML5 Validator!</a>
+        <br><br><input type="checkbox" id="moreED" />Check for extended error data.
+      </div>
+      <div class="johnv right"></div>
+      <div class="force-inline-block width400 right">Custom Script<br><br>
+        <textarea class="custom-script"></textarea>
+      </div>
+      <div class="force-inline-block width400 right">Custom CSS<br><br>
+        <textarea class="custom-style"></textarea>
+      </div>
+    </div>
+
+    <div class="centered-block">
+      <div class="right">
+        <input type="file" id="fileInput" /><input id="form-name" placeholder="File Name" /><input id="allowed-classes" placeholder="Allowed Classes" />
+        <br>
+        <button id="nativeScript">Execute Native Script</button>
+        <button id="customScript">Execute Custom Script</button>
+        <button id="customStyle">Update Custom Style</button>
+        <button id="preview">Full Screen Preview</button>
+        <button id="downloadDisplayArea">Download HTML</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="display-container">
+    <div>
+      <textarea id="fileStringDisplayArea"></textarea>
+    </div>
+    <div>
+      <div class="gadget formGadget" id="renderDisplayArea" contenteditable></div>
+    </div>
+  </div>
+
+  <div class="custom-code">
+    <script class="custom-script"></script>
+    <style class="custom-style"></style>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://jsbeautifier.org/js/lib/beautify.js"></script>
+  <script src="http://jsbeautifier.org/js/lib/beautify-html.js"></script>
+
+  <script src="js/jquery-change-element.js"></script>
+  <script src="js/module-no-tables.js"></script>
+  <script src="index.js"></script>
+</body>

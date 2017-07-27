@@ -1,0 +1,83 @@
+.header {
+  font-family: sans-serif;
+  padding: 30px;
+  background: rgba(100, 200, 255, .3);
+  margin-bottom: 20px;
+}
+
+.centered-block {
+  margin: auto;
+  width: 80%;
+  height: 80px;
+}
+
+.header input,
+.header button {
+  margin: 10px;
+}
+
+.header [type=checkbox] {
+  margin-left: 0px;
+}
+
+.header .right {
+  float: right;
+}
+
+.johnv {
+  height: 120px;
+  width: 200px;
+  background: #ffffff url(http://vignette3.wikia.nocookie.net/bacon/images/e/e4/Push-button-receive-bacon.png/revision/latest?cb=20110421190452) no-repeat;
+  background-size: cover;
+  margin-top: 34px;
+  cursor: pointer;
+  opacity: .67;
+}
+
+.johnv:hover {
+  opacity: 1;
+}
+
+.display-container>div {
+  display: inline-block;
+  width: 49%;
+}
+
+#renderDisplayArea,
+#fileStringDisplayArea {
+  background: white;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  width: 100%;
+  height: 680px;
+  overflow: auto;
+}
+
+.error {
+  background: red !important;
+}
+
+.force-inline-block {
+  display: inline-block;
+  margin
+}
+
+.width400 {
+  margin-right: 55px;
+  width: 400px;
+}
+
+.width400>textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.height180 {
+  height: 180px;
+}
+
+.spacer {
+  display: block;
+  width: 200px;
+  height: 20px;
+}
