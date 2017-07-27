@@ -18,7 +18,7 @@
     4 - Rapid UI Prototyping
 
 
-  How to Convert a Word Document to HTML
+  III. How to Convert a Word Document to HTML
   ---------------------------------------------------------
   
   1 - Open the Word file, save it to your local desktop as .rtf, and close it.
@@ -51,3 +51,13 @@
   9 - The utility, as well as the browser itself, will log errors to the console. Click "Check for extended error data" to get some additional error data.
   10- Click "Download Files" at any time to download the markup displayed in the bottom-left text area, the CSS in the CSS Window, and the JS in the JS Window.
   11- Known issue: Input fields with duplicate IDs are skipped.
+
+
+ IV. TODO
+ --------
+ 
+ 1 - Fix and complete this word file
+ 2 - option to choose document or template output. Document includes DOCTYPE, <head>, etc.
+ 3 - implement flash cards
+ 4 - implement pages
+ 5 - split css into concerns: pages, flash cards, standard atomic, index.html
