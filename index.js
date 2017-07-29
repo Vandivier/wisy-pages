@@ -158,6 +158,12 @@ function fPopulateBasicFlashCards() {
     font-size: 20px;
     transform: rotate(90deg);
 }
+
+@media print {
+  .page {
+    margin: 0;
+  }
+}
 `,
       sPageHtml = '<div class="book"><div class="page"><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Front</div></div><div class="card quarter-page-card"><div class="text">Card Front</div></div></div><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Front</div></div><div class="card quarter-page-card"><div class="text">Card Front</div></div></div></div><div class="page"><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Back</div></div><div class="card quarter-page-card"><div class="text">Card Back</div></div></div><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Back</div></div><div class="card quarter-page-card"><div class="text">Card Back</div></div></div></div><div class="page"><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div></div><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div></div></div><div class="page"><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div></div><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div></div></div></div>';
 
