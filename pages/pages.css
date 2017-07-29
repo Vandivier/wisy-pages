@@ -1,0 +1,13 @@
+.book {
+  background: lightGrey;
+  min-height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.page {
+  background: white;
+  height: 11in;
+  margin: 1in auto;
+  width: 8.5in;
+}

@@ -46,9 +46,11 @@ function bindEvents() {
     renderMarkup()
   });
   $('#preview').click(function (e) {
-    var newWinHtml = $('#renderDisplayArea').parent().html();
-    //newWinHtml = '<link rel="stylesheet" type="text/css" href="../oc-ui/web/gadgets/formGadget/formGadget.css">' + newWinHtml;
-    var newWin = window.open();
+    var sStyle = '<style>' + $('.custom-style').text() + '</style>',
+        newWin = window.open(),
+        newWinHtml = $('#renderDisplayArea').parent().html();
+
+    newWinHtml = sStyle + newWinHtml;
     newWin.document.write(newWinHtml);
   });
   $('#downloadDisplayArea').click(function (e) {
@@ -100,14 +102,36 @@ function destroyClickedElement(event) {
 
 function renderPreview(stringToRender) {
   stringToRender = stringToRender || $('#fileStringDisplayArea').val();
-  var formName = $('#form-name').val();
-  $('.gadget.formGadget').removeAttr('class').addClass('gadget formGadget ' + formName);
   $('#renderDisplayArea').html(stringToRender);
 }
 
 function renderMarkup(stringToRender) {
   var stringToRender = stringToRender || $('#renderDisplayArea').html();
   $('#fileStringDisplayArea').val(html_beautify(stringToRender));
+}
+
+function fPopulateBasicFlashCards() {
+  var sPageCss = `.book {
+  background: grey;
+  min-height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.page {
+  background: white;
+  height: 11in;
+  margin: 1in auto;
+  width: 8.5in;
+}
+`,
+      sPageHtml = '<div class="book"><div class="page"><div class="card">Card Front</div><div class="card">Card Front</div><div class="card">Card Front</div><div class="card">Card Front</div></div><div class="page"><div class="card">Card Back</div><div class="card">Card Back</div><div class="card">Card Back</div><div class="card">Card Back</div></div></div>';
+
+  $('#fileStringDisplayArea').val(sPageHtml);
+  $('.custom-style').val(sPageCss);
+  $('.custom-script').val('renderMarkup(); // same as HTML Beautify button.');
+  customStyle();
+  renderPreview();
 }
 
 function nativeScript() {
