@@ -29,8 +29,13 @@ The output is an HTML applet which right now can be printed to obtain physical f
 Unit are matched to a title attribute of a <card /> element. An overview is below:
 
 Units:
+
 public-choice-1-econ-852-wagner
+
 public-choice-2-econ-854-caplan
+
 public-choice-3-econ-856-leeson
+
 austrian-1-econ-880-coyne
+
 austrian-2-econ-881-wagner
