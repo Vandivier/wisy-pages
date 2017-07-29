@@ -111,8 +111,12 @@ function renderMarkup(stringToRender) {
 }
 
 function fPopulateBasicFlashCards() {
-  var sPageCss = `.book {
-  background: grey;
+  var sPageCss = `body {
+  margin: 0;
+}
+
+.book {
+  background: lightGrey;
   min-height: 100%;
   position: absolute;
   width: 100%;
@@ -120,12 +124,42 @@ function fPopulateBasicFlashCards() {
 
 .page {
   background: white;
+  box-sizing: border-box;
   height: 11in;
   margin: 1in auto;
+  padding: .2in;
   width: 8.5in;
 }
+
+.card {
+    align-items: center;      /* vertical align */
+    border: 2px solid rgba(0, 0, 0, .63);
+    display: inline-flex;
+    justify-content: center;  /* horizontal align */
+    margin: 0 .25in .25in 0;
+    text-align: center;
+}
+
+.eighth-page-card {
+    height: 2.4in;
+    width: 3.68in;
+}
+
+.eighth-page-card .text {
+    font-size: 18px;
+}
+
+.quarter-page-card {
+    height: 5in;
+    width: 3.68in;
+}
+
+.quarter-page-card .text {
+    font-size: 20px;
+    transform: rotate(90deg);
+}
 `,
-      sPageHtml = '<div class="book"><div class="page"><div class="card">Card Front</div><div class="card">Card Front</div><div class="card">Card Front</div><div class="card">Card Front</div></div><div class="page"><div class="card">Card Back</div><div class="card">Card Back</div><div class="card">Card Back</div><div class="card">Card Back</div></div></div>';
+      sPageHtml = '<div class="book"><div class="page"><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Front</div></div><div class="card quarter-page-card"><div class="text">Card Front</div></div></div><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Front</div></div><div class="card quarter-page-card"><div class="text">Card Front</div></div></div></div><div class="page"><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Back</div></div><div class="card quarter-page-card"><div class="text">Card Back</div></div></div><div class="flex-row"><div class="card quarter-page-card"><div class="text">Card Back</div></div><div class="card quarter-page-card"><div class="text">Card Back</div></div></div></div><div class="page"><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div></div><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div><div class="card eighth-page-card"><div class="text">Card Front</div></div></div></div><div class="page"><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div></div><div class="flex-row"><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div><div class="card eighth-page-card"><div class="text">Card Back</div></div></div></div></div>';
 
   $('#fileStringDisplayArea').val(sPageHtml);
   $('.custom-style').val(sPageCss);

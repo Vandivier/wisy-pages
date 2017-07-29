@@ -1,7 +1,11 @@
+body {
+  margin: 0;
+}
+
 .header {
   font-family: sans-serif;
   padding: 30px;
-  background: rgba(100, 200, 255, .3);
+  background: rgba(160, 80, 40, .4);
   margin-bottom: 20px;
 }
 
