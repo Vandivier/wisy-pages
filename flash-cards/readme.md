@@ -1,4 +1,7 @@
 # Generating Flash Cards
+In the /source folder, open source.html to see the output. It is printable and eventually will be able to shuffle and flip in browser.
+
+To edit the data contained on those cards, edit the source.js file.
 
 # On Card Content
 
