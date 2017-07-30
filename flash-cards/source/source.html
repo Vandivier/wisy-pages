@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="source.css">
+
+<body ng-app="ngAppFlashCards" ng-controller="controllerFlashCards">
+
+  <div class="book">
+    <div class="page" ng-repeat="oPage in arroPages">
+      <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
+        <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
+          <div class="text">{{oCard.front}}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" ng-repeat="oPage in arroPages">
+      <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
+        <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
+          <div class="text">{{oCard.back}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="source.js"></script>
+<script src="app.js"></script>
+
+</html>
