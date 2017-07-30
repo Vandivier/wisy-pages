@@ -1,6 +1,6 @@
 # Generating Flash Cards
 
-tldr: Install Node and run this on the command line in the /data folder: `node convert`
+# On Card Content
 
 approach: preferred minimum of 2 flash cards per unit in each course, more is fine.
 'red flag' questions seperated. These are points of disagreement amongst the Professors.
