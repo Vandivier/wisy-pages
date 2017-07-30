@@ -2,11 +2,14 @@ body {
   margin: 0;
 }
 
-.book {
+.background-controller.print {
   background: lightGrey;
   min-height: 100%;
   position: absolute;
   width: 100%;
+}
+
+.book {
 }
 
 .page {
@@ -36,9 +39,42 @@ body {
     font-size: 18px;
 }
 
+.toggle-button, .next-card-button, .status-text, .mode-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.next-card-button {
+  left: 120px;
+}
+
+.status-text {
+  font-size: 18px;
+  top: 80px;
+}
+
+.mode-text {
+  font-size: 18px;
+  top: 50px;
+}
+
 .quarter-page-card {
     height: 5in;
     width: 3.68in;
+}
+
+.quarter-page-card-horizontal {
+    cursor: pointer;
+    display: flex;
+    height: 3.68in;
+    margin: 1in auto;
+    width: 5in;
+}
+
+.quarter-page-card-horizontal .text {
+    font-size: 20px;
 }
 
 .quarter-page-card .text {
@@ -49,5 +85,9 @@ body {
 @media print {
   .page {
     margin: 0;
+  }
+
+  .toggle-button, .next-card-button, .status-text, .mode-text {
+    display: none;
   }
 }

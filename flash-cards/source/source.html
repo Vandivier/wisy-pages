@@ -4,25 +4,53 @@
 
 <body ng-app="ngAppFlashCards" ng-controller="controllerFlashCards">
 
-  <div class="book">
-    <div class="page" ng-repeat="oPage in arroPages">
-      <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
-        <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
-          <div class="text">{{oCard.front}}</div>
-        </div>
-      </div>
-    </div>
+    <div class="background-controller"
+         ng-class="{'print': bPrintMode}">
 
-    <div class="page" ng-repeat="oPage in arroPages">
-      <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
-        <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
-          <div class="text">{{oCard.back}}</div>
-        </div>
+          <button class="toggle-button" ng-click="fToggleMode()">Toggle Mode</button>
+          <button class="next-card-button"
+                  ng-click="fDrawCard()"
+                  ng-if="!bPrintMode">Next Card</button>
+          <div class="mode-text">Currently in {{ bPrintMode ? 'print' : 'flash card'; }} mode.</div>
+
+          <div class="book" ng-if="bPrintMode">
+            <div class="page" ng-repeat="oPage in arroPages">
+              <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
+                <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
+                  <div class="text">{{oCard.front}}</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="page" ng-repeat="oPage in arroPages">
+              <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
+                <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
+                  <div class="text">{{oCard.back}}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div ng-if="!bPrintMode">
+              <div class="status-text">Showing {{ bShowFrontOfCurrentCard ? 'front' : 'back'; }}
+              of card {{iCurrentCard}} of {{arroFlattenedCards.length}}.
+              </div>
+              <div class="card quarter-page-card-horizontal"
+                 ng-if="bShowFrontOfCurrentCard"
+                 ng-click="fFlipCard()">
+                  <div class="text">{{oCurrentCard.front}}</div>
+              </div>
+
+              <div class="card quarter-page-card-horizontal"
+                 ng-if="!bShowFrontOfCurrentCard"
+                 ng-click="fFlipCard()">
+                  <div class="text">{{oCurrentCard.back}}</div>
+              </div>
+          </div>
       </div>
-    </div>
-  </div>
 
 </body>
+
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <script src="source.js"></script>
 <script src="app.js"></script>
