@@ -31,7 +31,8 @@ The output is an HTML applet which right now can be printed to obtain physical f
 
 Unit are matched to a title attribute of a <card /> element. An overview is below:
 
-Units:
+
+# Courses:
 
 austrian-1-econ-880-coyne
 
@@ -42,3 +43,73 @@ public-choice-1-econ-852-wagner
 public-choice-2-econ-854-caplan
 
 public-choice-3-econ-856-leeson
+
+
+# Units:
+
+austrian-1-econ-880-coyne
+  unit 1/13
+    1 - note
+      - question
+      - answer
+    2 - note
+      - question
+      - answer
+  unit 2/13
+  unit 3/13
+  unit 4/13
+  unit 5/13
+  unit 6/13
+  unit 7/13
+  unit 8/13
+  unit 9/13
+  unit 10/13
+  unit 11/13
+  unit 12/13
+  unit 13/13
+
+austrian-2-econ-881-wagner
+  unit 1/4
+  unit 2/4
+  unit 3/4
+  unit 4/4
+
+public-choice-1-econ-852-wagner
+  unit 1/11
+  unit 2/11
+  unit 3/11
+  unit 4/11
+  unit 5/11
+  unit 6/11
+  unit 7/11
+  unit 8/11
+  unit 9/11
+  unit 10/11
+  unit 11/11
+
+public-choice-2-econ-854-caplan
+  unit 1/13
+  unit 2/13
+  unit 3/13
+  unit 4/13
+  unit 5/13
+  unit 6/13
+  unit 7/13
+  unit 8/13
+  unit 9/13
+  unit 10/13
+  unit 11/13
+  unit 12/13
+  unit 13/13
+
+public-choice-3-econ-856-leeson
+  unit 1/10
+  unit 2/10
+  unit 3/10
+  unit 4/10
+  unit 5/10
+  unit 6/10
+  unit 7/10
+  unit 8/10
+  unit 9/10
+  unit 10/10
