@@ -50,12 +50,21 @@ public-choice-3-econ-856-leeson
 austrian-1-econ-880-coyne
   unit 1/13
     1 - note
-      - question
-      - answer
+      - question: Who is considered the founder of the Austrian School, what is a key concept he contributed, and around what time?
+      - answer: Carl Menger is considered the founder of the Austrian School. He published Principles in 1871 which contributed to the Marginal Revolution by expressing a subjective theory of value, contrasting with the Classical Labor Theory of Value.
     2 - note
-      - question
-      - answer
+      - question: According to Menger, how does money originate?
+      - answer: Money originates on the market as the most marketable commodity. A marketable commodity is one which is easily exchanged or sold.
   unit 2/13
+    1 - note
+      - question: What are the prerequisites for Human Action?
+      - answer: 1) One must conceive of a preferred state of affairs, and 2) One must believe that there are set of specific actions which will feasibly produce a such state of affairs.
+    2 - note
+      - question: What is Praxeology?
+      - answer: The study of human action. Economics, Political Science, and Anthropology, for example, are included. Biology and psychology are excluded. Ends are taken as given and the determination of those ends is the purview of Thymology or Psychology rather than Praxeology.
+    3 - note
+      - question: What is Catallactics?
+      - answer: The praxeological theory of interaction and exchange
   unit 3/13
   unit 4/13
   unit 5/13
