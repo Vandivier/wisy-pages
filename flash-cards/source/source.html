@@ -15,7 +15,9 @@
             <div class="page" ng-repeat="oPage in arroPages">
               <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
                 <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
-                  <div class="text">{{oCard.front}}</div>
+                    <div class="card-inner-margin">
+                        <div class="text">{{oCard.front}}</div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -23,7 +25,9 @@
             <div class="page" ng-repeat="oPage in arroPages">
               <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
                 <div class="card quarter-page-card" ng-repeat="oCard in oRow.arroCards">
-                  <div class="text">{{oCard.back}}</div>
+                    <div class="card-inner-margin">
+                        <div class="text">{{oCard.back}}</div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -37,7 +41,7 @@
                           ng-if="!bPrintMode">Next Card</button>
 
                   <div>
-                      Showing {{ bShowFrontOfCurrentCard ? 'front' : 'back'; }} of card {{iCurrentCard}} of {{arroFlattenedCards.length}}.
+                      Showing {{ bShowFrontOfCurrentCard ? 'front' : 'back'; }} of card {{iCurrentCard}} of {{arroCards.length}}.
                   </div>
 
                   <div>
@@ -49,13 +53,17 @@
               <div class="card quarter-page-card-horizontal"
                  ng-if="bShowFrontOfCurrentCard"
                  ng-click="fFlipCard()">
-                  <div class="text">{{oCurrentCard.front}}</div>
+                    <div class="card-inner-margin">
+                        <div class="text">{{oCurrentCard.front}}</div>
+                    </div>
               </div>
 
               <div class="card quarter-page-card-horizontal"
                  ng-if="!bShowFrontOfCurrentCard"
                  ng-click="fFlipCard()">
-                  <div class="text">{{oCurrentCard.back}}</div>
+                    <div class="card-inner-margin">
+                        <div class="text">{{oCurrentCard.back}}</div>
+                    </div>
               </div>
           </div>
       </div>

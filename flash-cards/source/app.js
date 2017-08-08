@@ -3,30 +3,22 @@
 
 angular.module('ngAppFlashCards', []).
 controller('controllerFlashCards', function($scope) {
-  
+
     function init() {
-        let arroCourses = oCourses.courses,
-            arroRows = [],
-            arroAllCards = [],      // it's an array of arrays
-            iPageCapacity = 8;
+        let arroRows = [],
+            iPageCapacity = 8;      // business rule
 
         $scope.arroPages = [];
-        $scope.arroFlattenedCards = [];
+        $scope.arroCards = oCards.cards || [];
 
-        for (let i = 0; i < arroCourses.length; i++) {
-            arroAllCards.push(arroCourses[i].cards);
-        }
-
-        $scope.arroFlattenedCards = flatten(arroAllCards);
-
-        for (let i = 0; i < $scope.arroFlattenedCards.length; i++) {
+        for (let i = 0; i < $scope.arroCards.length; i++) {
             let iCurrentRow = Math.floor(i/2);
 
             if (arroRows[iCurrentRow]) {
-                arroRows[iCurrentRow].arroCards.push($scope.arroFlattenedCards[i]);
+                arroRows[iCurrentRow].arroCards.push($scope.arroCards[i]);
             } else {
                 arroRows.push({
-                  'arroCards': [$scope.arroFlattenedCards[i]]
+                  'arroCards': [$scope.arroCards[i]]
                 });
             }
         }
@@ -61,7 +53,7 @@ controller('controllerFlashCards', function($scope) {
     // TODO: don't auto-increment unless they ask
     // note: iCurrentCard is 1-indexed, not 0-indexed, so it matches the rendered index not the array position.
     $scope.fDrawCard = function() {
-        let iDeckSize = $scope.arroFlattenedCards.length;
+        let iDeckSize = $scope.arroCards.length;
 
         if (!$scope.oState.bShuffle) {
             if ($scope.iCurrentCard === iDeckSize) {
@@ -72,7 +64,7 @@ controller('controllerFlashCards', function($scope) {
             $scope.iCurrentCard = randomNewIntFromInterval(1, iDeckSize, $scope.iCurrentCard);
         }
 
-        $scope.oCurrentCard = $scope.arroFlattenedCards[$scope.iCurrentCard - 1];
+        $scope.oCurrentCard = $scope.arroCards[$scope.iCurrentCard - 1];
         $scope.bShowFrontOfCurrentCard = true;
     }
 
