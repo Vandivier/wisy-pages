@@ -25,7 +25,7 @@ var oCourses = {
             },
             {
                "front": "Definition of Kaldor-Hicks Efficiency",
-               "back": " A situation is Kaldor-Hicks efficient if and only if the dollar value of social resources is maximized.",
+               "back": "A situation is Kaldor-Hicks efficient if and only if the dollar value of social resources is maximized.",
                "otherInfo": {
                     "unit": "1"
                 }
@@ -38,10 +38,17 @@ var oCourses = {
                 }
             },
             {
-               "front": "test front",
-               "back": "test back",
+               "front": "Why does the fact of multi-peaked voter preferences threaten the ability identify a 'will of the people?' Does it preclude the usefulness of the MVT?s",
+               "back": "Real voters often have multi-peaked preferences which can lead to intransitive political outcomes, or vote cycles. In such cases there may be no particular 'will of the people' because multiple outcomes can result. In the extreme case, all possible outcomes result with an equal probability. Such problematic theoretical results are empirically rare. There is strong empirical evidence that many outomes are strongly explained by the single-dimensional liberal-conservative policy spectrum, so the MVT is a useful first-pass explanation, guide, or tool.",
                "otherInfo": {
-                    "unit": "1"
+                    "unit": "2"
+                }
+            },
+            {
+               "front": "Define the Median Voter Theorem mathematically and in plain English.",
+               "back": "Mathematically, P(D) = P(R) = P(median). D and R represent the US political parties, or any two opposed parties. In plain English, MVT holds that single-issue party platforms will converge on the preferences of the median voter given a two-party, winner-take-all voting system.",
+               "otherInfo": {
+                    "unit": "2"
                 }
             }
          ]
