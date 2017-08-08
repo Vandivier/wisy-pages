@@ -44,9 +44,6 @@ controller('controllerFlashCards', function($scope) {
 
     $scope.fToggleMode = function() {
         $scope.bPrintMode = !$scope.bPrintMode;
-        if(!$scope.bPrintMode) {
-           $scope.fDrawCard();
-        }
     }
 
     // TODO: don't auto-increment unless they ask
