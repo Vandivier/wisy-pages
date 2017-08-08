@@ -37,11 +37,10 @@ controller('controllerFlashCards', function($scope) {
 
         $scope.oState = {};             // holds ng-modeled values; TODO: should it hold the whole state? eg bPrintMode
         $scope.oState.bShuffle = false;
-        $scope.bPrintMode = true;
+        $scope.bPrintMode = false;
         $scope.iCurrentCard = 0;
+        $scope.fDrawCard();
     }
-
-    init();
 
     $scope.fToggleMode = function() {
         $scope.bPrintMode = !$scope.bPrintMode;
@@ -71,6 +70,8 @@ controller('controllerFlashCards', function($scope) {
     $scope.fFlipCard = function() {
         $scope.bShowFrontOfCurrentCard = !$scope.bShowFrontOfCurrentCard;
     }
+
+    init();
 });
 
 function flatten(arr) {

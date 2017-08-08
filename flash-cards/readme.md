@@ -9,6 +9,7 @@ To edit the data contained on those cards, edit the source.js file.
   3 - title goes inside otherInfo property, so every card object has at most 3 root properties: front, back, otherInfo
   4 - card info explorer so user can view otherInfo property on a card
   5 - deck building layer that makes it easy for a user to filter a custom deck like 'card.title.indexOf('coyne') > -1'
+  6 - support arbitrary HTML on card front or back
 
 # On Card Content
 
