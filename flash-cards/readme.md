@@ -4,7 +4,7 @@ In the /source folder, open source.html to see the output. It is printable and e
 To edit the data contained on those cards, edit the source.js file.
 
 # TODO
-  1 - card shuffle option
+  1 - [done] card shuffle option
   2 - mark for review (or remove from deck) option
   3 - title goes inside otherInfo property, so every card object has at most 3 root properties: front, back, otherInfo
   4 - card info explorer so user can view otherInfo property on a card

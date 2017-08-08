@@ -9,7 +9,16 @@ body {
   width: 100%;
 }
 
-.book {
+.book {}
+
+.flash-card-group {
+    margin: 10px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.flash-card-group > * {
+    margin-bottom: 5px;
 }
 
 .page {
@@ -39,16 +48,14 @@ body {
     font-size: 18px;
 }
 
-.toggle-button, .next-card-button, .status-text, .mode-text {
+.toggle-button, .status-text, .mode-text {
     position: absolute;
     top: 20px;
     left: 20px;
     z-index: 10;
 }
 
-.next-card-button {
-  left: 120px;
-}
+.next-card-button {}
 
 .status-text {
   font-size: 18px;

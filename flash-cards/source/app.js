@@ -43,8 +43,12 @@ controller('controllerFlashCards', function($scope) {
             }
         }
 
+        $scope.oState = {};             // holds ng-modeled values; TODO: should it hold the whole state? eg bPrintMode
+        $scope.oState.bShuffle = false;
         $scope.bPrintMode = true;
+        $scope.iCurrentCard = 0;
     }
+
     init();
 
     $scope.fToggleMode = function() {
@@ -54,14 +58,19 @@ controller('controllerFlashCards', function($scope) {
         }
     }
 
-    // TODO: allow random selection
     // TODO: don't auto-increment unless they ask
+    // note: iCurrentCard is 1-indexed, not 0-indexed, so it matches the rendered index not the array position.
     $scope.fDrawCard = function() {
-        if (!$scope.iCurrentCard
-            || $scope.iCurrentCard === $scope.arroFlattenedCards.length) {
-          $scope.iCurrentCard = 0;
+        let iDeckSize = $scope.arroFlattenedCards.length;
+
+        if (!$scope.oState.bShuffle) {
+            if ($scope.iCurrentCard === iDeckSize) {
+              $scope.iCurrentCard = 0;
+            }
+            $scope.iCurrentCard++;
+        } else {
+            $scope.iCurrentCard = randomNewIntFromInterval(1, iDeckSize, $scope.iCurrentCard);
         }
-        $scope.iCurrentCard++;
 
         $scope.oCurrentCard = $scope.arroFlattenedCards[$scope.iCurrentCard - 1];
         $scope.bShowFrontOfCurrentCard = true;
@@ -76,4 +85,20 @@ function flatten(arr) {
   return arr.reduce(function (flat, toFlatten) {
     return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
   }, []);
+}
+
+// ref: https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
+function randomIntFromInterval(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+// makes sure you don't click "next card" as a user and draw the same card.
+function randomNewIntFromInterval(min, max, iOriginal) {
+    let iNew = randomIntFromInterval(min, max);
+
+    while (iNew === iOriginal) {
+        iNew = randomIntFromInterval(min, max);
+    }
+
+    return iNew;
 }

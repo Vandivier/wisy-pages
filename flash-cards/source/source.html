@@ -8,11 +8,9 @@
          ng-class="{'print': bPrintMode}">
 
           <button class="toggle-button" ng-click="fToggleMode()">Toggle Mode</button>
-          <button class="next-card-button"
-                  ng-click="fDrawCard()"
-                  ng-if="!bPrintMode">Next Card</button>
           <div class="mode-text">Currently in {{ bPrintMode ? 'print' : 'flash card'; }} mode.</div>
 
+          <!-- TODO: seperate by bPrintMode into seperate script tags / directives -->
           <div class="book" ng-if="bPrintMode">
             <div class="page" ng-repeat="oPage in arroPages">
               <div class="flex-row" ng-repeat="oRow in oPage.arroRows">
@@ -31,10 +29,23 @@
             </div>
           </div>
 
+          <!-- note: for now, !bPrintMode === flash card mode. Maybe more modes later. -->
           <div ng-if="!bPrintMode">
-              <div class="status-text">Showing {{ bShowFrontOfCurrentCard ? 'front' : 'back'; }}
-              of card {{iCurrentCard}} of {{arroFlattenedCards.length}}.
+              <div class="status-text flash-card-group">
+                  <button class="next-card-button"
+                          ng-click="fDrawCard()"
+                          ng-if="!bPrintMode">Next Card</button>
+
+                  <div>
+                      Showing {{ bShowFrontOfCurrentCard ? 'front' : 'back'; }} of card {{iCurrentCard}} of {{arroFlattenedCards.length}}.
+                  </div>
+
+                  <div>
+                      <input type="checkbox" ng-model="oState.bShuffle" />
+                      {{ 'Shuffling ' + (oState.bShuffle ? 'on' : 'off') }}
+                  </div>
               </div>
+
               <div class="card quarter-page-card-horizontal"
                  ng-if="bShowFrontOfCurrentCard"
                  ng-click="fFlipCard()">
