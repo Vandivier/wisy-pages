@@ -67,7 +67,25 @@ var oCards = {
             },
         {
             "front": "What is the Mean Voter Theorem?",
-            "back": "TODO",
+            "back": "With zero transactions costs, political bargaining implements the mean voter preference on any number of issues, even if preferences are not single-peaked.",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan",
+                "unit": "3",
+                "url": "http://econfaculty.gmu.edu/bcaplan/e854/pc3.htm"
+            }
+            },
+        {
+            "front": "What is log rolling? Is it good or bad for the economy?",
+            "back": "Log rolling is political bargaining between politicians. When mean and median voter preferences diverge, the median voter will select an outcome which does not maximize total surplus, but the Coase Theorem implies that log-rolling can maximize surplus in this situation by allowing the mean voter to bribe the median voter. Log rolling can also improve total surplus by resolving intransitive vote cycles.",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan",
+                "unit": "3",
+                "url": "http://econfaculty.gmu.edu/bcaplan/e854/pc3.htm"
+            }
+            },
+        {
+            "front": "Suppose a politician stands to gain $75,000 by voting in favor of a special interest and against the preferences of the mean and median voters of his district. He will gain the equivalent of $25,000 in favorability if he votes in line with their preferences. There is a 10% chance he might be caught and exposed by a well-meaning reporter if he cooperates with the special interest. What action is he expected to take?",
+            "back": "The politician is expected to act in order to maximize expected value. Voters can incentivize his action in their interest with a sufficiently high punishment contingent on being caught. A simple model describing the situation would be B(v) > B(s) - pD => 25000 > 75000 - .1*D => D > 500000. So we would expect the politician to act according to the will of the people if D, the cost of punishment, exceeds $.5M.",
             "otherInfo": {
                 "class": "public-choice-2-econ-854-caplan",
                 "unit": "3",
@@ -76,7 +94,7 @@ var oCards = {
             },
         {
             "front": "Voter Ignorance, Principal-Agent Problems, and Optimal Punishment",
-            "back": "TODO. Use a specific math problem on punishment. Also TODO: Uncertainty causing platform divergence, the problem with the Miracle of Aggregation, Divergence Between Median and Mean Preferences, One study found that term limits make government grow. What are two ways to interpret this result?",
+            "back": "TODO: Uncertainty causing platform divergence, the problem with the Miracle of Aggregation, One study found that term limits make government grow. What are two ways to interpret this result?",
             "otherInfo": {
                 "class": "public-choice-2-econ-854-caplan",
                 "unit": "3",
