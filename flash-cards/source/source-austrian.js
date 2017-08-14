@@ -11,7 +11,7 @@ var oCards = {
             },
         {
             "front": "According to Menger, how does money originate?",
-            "back": "Money originates on the market as the most marketable commodity. A marketable commodity is one which is easily exchanged or sold. This was developed by Mises into the Regression Theorem.",
+            "back": "Money originates on the market as the most marketable commodity. A marketable commodity is one which is easily exchanged or sold. This was developed by Mises into the Regression Theorem, which builds on Menger's explanation to explain how particular monies obtain particular values, or purchasing power, in a non-circular way.",
             "otherInfo": {
                 "class": "austrian-syl-econ-880-coyne",
                 "unit": "1"
