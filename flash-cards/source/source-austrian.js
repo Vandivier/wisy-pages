@@ -27,7 +27,7 @@ var oCards = {
             },
         {
             "front": "What is Praxeology?",
-            "back": "The study of human action. Economics, Political Science, and Anthropology, for example, are included. Biology and psychology are excluded. Ends are taken as given and the determination of those ends is the purview of Thymology or Psychology rather than Praxeology. Praxeology takes ends as given.",
+            "back": "The study of human action. Economics, Political Science, and Anthropology, for example, are included. Biology and psychology are excluded. Praxeology takes ends as given.",
             "otherInfo": {
                 "class": "austrian-syl-econ-880-coyne",
                 "unit": "2"
