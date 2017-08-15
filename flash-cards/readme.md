@@ -10,6 +10,7 @@ To edit the data contained on those cards, edit the source.js file.
   4 - card info explorer so user can view otherInfo property on a card
   5 - deck building layer that makes it easy for a user to filter a custom deck like 'card.title.indexOf('coyne') > -1'
   6 - support arbitrary HTML on card front or back
+  7 - As Library: foGetDynamicSchema(arro); pass in an array of objects, get a schema definition object which declares the total set of properties held by any object in the array passed in. This can be a building block for #5, deck queries, but it has applications in many software projects.
 
 # On Card Content
 
@@ -42,74 +43,12 @@ Unit are matched to a title attribute of a <card /> element. An overview is belo
 
 # Courses:
 
-austrian-1-econ-880-coyne
+austrian-1-econ-880-coyne          (13 units)
 
-austrian-2-econ-881-wagner
+austrian-2-econ-881-wagner         (4 units)
 
-public-choice-1-econ-852-wagner
+public-choice-1-econ-852-wagner    (11 units)
 
-public-choice-2-econ-854-caplan
+public-choice-2-econ-854-caplan    (13 units)
 
-public-choice-3-econ-856-leeson
-
-
-# Units:
-
-austrian-1-econ-880-coyne
-  unit 3/13
-  unit 4/13
-  unit 5/13
-  unit 6/13
-  unit 7/13
-  unit 8/13
-  unit 9/13
-  unit 10/13
-  unit 11/13
-  unit 12/13
-  unit 13/13
-
-austrian-2-econ-881-wagner
-  unit 1/4
-  unit 2/4
-  unit 3/4
-  unit 4/4
-
-public-choice-1-econ-852-wagner
-  unit 1/11
-  unit 2/11
-  unit 3/11
-  unit 4/11
-  unit 5/11
-  unit 6/11
-  unit 7/11
-  unit 8/11
-  unit 9/11
-  unit 10/11
-  unit 11/11
-
-public-choice-2-econ-854-caplan
-  unit 1/13
-  unit 2/13
-  unit 3/13
-  unit 4/13
-  unit 5/13
-  unit 6/13
-  unit 7/13
-  unit 8/13
-  unit 9/13
-  unit 10/13
-  unit 11/13
-  unit 12/13
-  unit 13/13
-
-public-choice-3-econ-856-leeson
-  unit 1/10
-  unit 2/10
-  unit 3/10
-  unit 4/10
-  unit 5/10
-  unit 6/10
-  unit 7/10
-  unit 8/10
-  unit 9/10
-  unit 10/10
+public-choice-3-econ-856-leeson    (10 units)
