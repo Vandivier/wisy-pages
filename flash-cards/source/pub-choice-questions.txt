@@ -1,0 +1,64 @@
+6 common public choice questions (multiple exams...protip: they are most common in adjacent semesters Spring/Fall):
+  - Bryan Caplan (or Brennan and Lomasky) blame(s) most political failures on voter irrationality, not special
+interests, but these two mechanisms could interact. Discuss how voter
+irrationality could explain why special interests are able to influence policy. Use a
+real-world example.
+  - The literature on agency and business firms is mostly concerned with
+addressing how transferable ownership, in conjunction with the market for
+managerial labor, operates to mitigate agency costs. Municipal corporations are
+similar to business firms, in that managerial responsibility is separated from
+corporate ownership, which is distributed among residents/citizens. Discuss how
+you might go about bringing agency principles to bear on municipal corporations. 
+  - Investment banks provide intermediary services that connect people who have
+enterprises for which they are seeking support and people who have money they
+are seeking to invest. How would you go about treating a legislative assembly as
+a peculiar type of investment bank, with “peculiar” denoting that not all investors
+are willing investors? Set forth a skeletal framework that would render sensible
+some salient features of modern fiscal arrangements.
+  - When economists theorize about markets, they explain the expansion and
+contraction among enterprises and industries as reflecting the flow of capital from
+where returns are low to where they are high (profit opportunities). Why don’t
+economists explain the growth of government since late in the 19th century in the
+same fashion? What do you think would be the primary issues that would have to be
+confronted in constructing such an explanation?
+  - With the (in)famous exception of Gordon Tullock, virtually no American scholar
+believes that a civil law system is more efficient than a common law one. Who’s
+right: Tullock or everyone else, and why? If you answer Tullock, explain what
+everyone else--all of whom you should assume are familiar with Tullock’s
+critiques--is missing. If you answer everyone else, how do you explain the fact
+that adjudication produced and purchased in private markets (e.g., international
+arbitration) looks much closer to civil law than common law?
+  - Bryan Caplan asserts: "since voting is largely expressive and not instrumental,
+public goods are supplied only by coincidence." Explain his reasoning. Is he
+right or wrong? Explain the basis of your judgment.
+
+
+7 EZ mode questions:
+  - Empirically, what determines attitudes toward markets versus government? Do
+these contradict the implications of a Meltzer-Richards type of model?
+  - Tax rates on particular products vary considerably across states in the US. For
+instance, the tax rate on beer in such states as Colorado, Illinois, Minnesota,
+Missouri, and Pennsylvania is less than one-fifth the tax rate in such states as
+Alabama, Florida, Georgia, Hawaii, and North Carolina. Discuss in a conceptual
+manner how you would go about explaining this kind of variation in tax rates.
+  - What do the empirical literature on religion, genetics, and public opinion
+suggest about the evolution of public policy over the next century?
+  - Rent-seeking need not mean rent-destroying. Explain how in theory the quest
+for Tullock’s Triangle could lead to reasonably efficient outcomes in some cases
+and woefully inefficient outcomes in others. Provide at least one plausible
+(though perhaps ahistorical) empirical example of each of these two types of
+rent-seeking.
+  - Why are the optimal plans of even well-intentioned governments often time
+inconsistent? Be precise about the channels involved. Discuss two mechanisms,
+plausible or otherwise, which would reduce the problem of time inconsistency.
+  - According to Bryan Caplan, "since voting is largely expressive and not
+instrumental, public goods are supplied only by coincidence." Explain his
+reasoning. Is he right or wrong? Why or why not?
+  - Donald Wittman severely criticizes democratic failure arguments that appeal to
+"concentrated benefits and dispersed costs." Summarize his main counterarguments.
+Is he right? If so, is there any way to reformulate the standard view
+in a way that escapes Wittman's criticism? Discuss both theoretical and
+empirical evidence.
+
+
+

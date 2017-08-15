@@ -170,7 +170,7 @@ var oCards = {
             },
         {
             "front": "TODO",
-            "back": "1) explain WHY expressive is best in above card. 2) Wittman (unit 7 and later). 3) Mathematical example of Inefficient Unanimity from unit 8. Units 10-14. Wagner and Leeson's courses.",
+            "back": "1) explain WHY expressive is best in above card. 2) Wittman (unit 7 and later). 3) Mathematical example of Inefficient Unanimity from unit 8. Units 10-14. Wagner and Leeson's courses. Emphasize Leeson's Human Sacrifice and answer 'Using everything you’ve learned, explain the peaceful transition from monarchy to democracy in 19th-century Europe.'",
             "otherInfo": {
                 "class": "public-choice-2-econ-854-caplan",
                 "units": ["4", "5", "8"],
