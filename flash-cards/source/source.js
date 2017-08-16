@@ -178,10 +178,37 @@ var oCards = {
             },
         {
             "front": "What is the Stationary Bandit Model?",
-            "back": "As long as a dictator expects to remain in power for a long time, he has an incentive to improve the material wellbeing of his nation's citizens. The dictator is like a majority shareholder in a",
+            "back": "As long as a dictator expects to remain in power for a long time, he has an incentive to improve the material wellbeing of his nation's citizens. The dictator can earn off of taxing this national welfare and by other means.",
             "otherInfo": {
                 "class": "public-choice-2-econ-854-caplan",
                 "keywords": ["stationary bandit model", "mancur olson"]
+            }
+            },
+        {
+            "front": "What are Wittman's 3 principles contra public choice?",
+            "back": "1) Voter ignorance is not a serious problem, and voters are not 'stupid.' 2) Politics, like the market, is competitive. 3) Political bargaining can eliminate any remaining significant inefficiencies.",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan",
+                "units": ["7"],
+                "keywords": ["wittman"]
+            }
+            },
+        {
+            "front": "How does Wittman argue that voter ignorance is not a serious problem?",
+            "back": "1) The amount of voter information has been underestimated. 2) Informed judgments can be made with little information. 3) Any issues with ignorance serve to limit the size of government, not grow it. Just as it is naive to think that asymmetric information helps used car dealers sell cars, it is naive to think that asymmetric information helps politicians create Big Government.",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan",
+                "units": ["7"],
+                "keywords": ["wittman"]
+            }
+            },
+        {
+            "front": "How does Wittman argue that politics is competitive?",
+            "back": "1) Reputation and optimal punishment keep politicians in line. 2) Similarity of platform shows competition. 3) Alleged 'barriers to entry' are usually minimal. 4) Empirical evidence shows a strong link between voter preferences and legislative behavior.",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan",
+                "units": ["7"],
+                "keywords": ["wittman"]
             }
             },
         {
