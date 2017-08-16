@@ -169,8 +169,24 @@ var oCards = {
             }
             },
         {
+            "front": "What is Mises' Democracy-Dictatorship Equivalence Theorem and what are 3 alternative mechanisms which explain the same target of explanation?",
+            "back": "Caplan notes that Mises argues that public opinion, not the form of government, is the key determinant of policy. The implication is that democracies and dictatorships will have the same policies. This result is called Mises’ Democracy–Dictatorship Equivalence Theorem. According to Mises, dictators have to comply with public opinion or else they will be overthrown. Three alternative mechanisms are explaining invariant policy are the Stationary Bandit Model, Shared Preferences, and Status Quo Bias.",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan",
+                "keywords": ["stationary bandit model", "mises' democracy-dictatorship equivalence theorem"]
+            }
+            },
+        {
+            "front": "What is the Stationary Bandit Model?",
+            "back": "As long as a dictator expects to remain in power for a long time, he has an incentive to improve the material wellbeing of his nation's citizens. The dictator is like a majority shareholder in a",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan",
+                "keywords": ["stationary bandit model", "mancur olson"]
+            }
+            },
+        {
             "front": "TODO",
-            "back": "1) explain WHY expressive is best in above card. 2) Wittman (unit 7 and later). 3) Mathematical example of Inefficient Unanimity from unit 8. Units 10-14. Wagner and Leeson's courses. Emphasize Leeson's Human Sacrifice and answer 'Using everything you’ve learned, explain the peaceful transition from monarchy to democracy in 19th-century Europe.'",
+            "back": "1) explain WHY expressive is best in above card. 2) Wittman (unit 7 and later). 3) Mathematical example of Inefficient Unanimity from unit 8. Units 10-14. Wagner and Leeson's courses. Emphasize Leeson's Human Sacrifice and answer 'Using everything you’ve learned, explain the peaceful transition from monarchy to democracy in 19th-century Europe.' Also answer the Tullock Question. Also, special interests drive the economy theory...Gilens and Page(2014), Wagner/Leeson on this too.",
             "otherInfo": {
                 "class": "public-choice-2-econ-854-caplan",
                 "units": ["4", "5", "8"],

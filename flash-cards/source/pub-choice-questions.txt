@@ -3,6 +3,9 @@
 interests, but these two mechanisms could interact. Discuss how voter
 irrationality could explain why special interests are able to influence policy. Use a
 real-world example.
+  - EQUIVALENT TO ABOVE: Bryan Caplan asserts: "since voting is largely expressive and not instrumental,
+public goods are supplied only by coincidence." Explain his reasoning. Is he
+right or wrong? Explain the basis of your judgment.
   - The literature on agency and business firms is mostly concerned with
 addressing how transferable ownership, in conjunction with the market for
 managerial labor, operates to mitigate agency costs. Municipal corporations are
@@ -28,9 +31,26 @@ everyone else--all of whom you should assume are familiar with Tullock’s
 critiques--is missing. If you answer everyone else, how do you explain the fact
 that adjudication produced and purchased in private markets (e.g., international
 arbitration) looks much closer to civil law than common law?
-  - Bryan Caplan asserts: "since voting is largely expressive and not instrumental,
-public goods are supplied only by coincidence." Explain his reasoning. Is he
-right or wrong? Explain the basis of your judgment.
+
+## ans
+I feel like everyone else is right.
+
+Common law's adversarial adjudication is technically inefficient in terms of the I/O of court costs, but on the overall economy is has a positive effect. Civil law is technically efficient. Private Arbitration opts for the technically efficient route, but make no mistake it looks nothing like Civil Law: Vanishingly few private arbitration contracts ever go to court, they usually settle. In Civil Law the state will step in and penalize two parties for engaging non-destructive and voluntary mutual activities. In fact, private arbitration looks much more like a third system where all law is produced on the market and no central legal or enforcement agency exists.
+
+So anyone saying that private arbitrage looks like Civil Law is simply making a category error: Confusing a method of interpersonal adjudication with a national legal system. If private arbitrage were to truly be a national legal system we would have a polycentric method of governance which no sane person would say "Hey, this reminds me of France's Civil System." In fact, legal theorist and economist David Friedman teaches a course on legal systems like this. The title of the course is "Legal Systems Very Different From Ours"
+
+Gordon Tullock critiques two specific aspects of the common law system: the adversary system of dispute resolution and the common law process of rulemaking, contrasting them with the inquisitorial system and the civil law systems respectively. I argue that Tullock's qualitative points are largely valid but that he does not robustly compare quantitative magnitudes and is thus unable to disambiguate which system is really best.
+
+Hayek is among those who provides theoretical reasons for the comparative efficiency of common law, and others have followed up with quantitative verification. GDP, GDP growth, and other measures of economic growth weigh in favor of common law systems. Criticisms of such aggregate measures have some merit, but GDP is cross-correlated with measures of happiness, health, and other measures. So it is not purely the total new production which matters. Tullock provided no rigorous measures of efficiency to dispute this information, and his argument is theoretically ambiguous in effect. True, he finds a larger number of reasons on the side of civil law, but this does not amount to a larger total effect in favor of civil law.
+
+Regarding rule making, arbitration looks like civil law because arbitration is often able to override judicial precedent with special clauses. Civil law is a set of statutes: Do's and dont's. So is an arbitration contract. Common law is constituted by a body of judicial decisions, but in many cases arbitration contracts are allowed to override or waive such precedent by having both parties agree to that as part of an arbitration contract.
+
+A strong reason international arbitration largely looks like civil law is because there are roughly twice as many countries which abide by civil law systems compared to the number of common law countries.
+
+Regarding rendering of a decision, I agree the inquisitorial process is leaner, but it doesn't follow that this judicial process is more efficient. The efficiency of a judicial system cannot be measured simply by the I/O of the court costs itself. We must consider the broader impact to the economy of the country. Common law systems facilitate liberty and creativity as discussed by Hayek. A civil system can be taken as a proxy of intent to build power for the State.
+
+I actually grant that the inquisitorial process may be technically efficient in the I/O sense and I think this is one reason that private arbitrators are free to implement a system which looks like this.
+## end ans
 
 
 7 EZ mode questions:
