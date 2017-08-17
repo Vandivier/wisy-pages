@@ -52,6 +52,11 @@ Regarding rendering of a decision, I agree the inquisitorial process is leaner, 
 I actually grant that the inquisitorial process may be technically efficient in the I/O sense and I think this is one reason that private arbitrators are free to implement a system which looks like this.
 ## end ans
 
+  - Does public choice support the “fatalist” view that economists cannot improve
+upon the status quo? Why or why not?
+  - Hayek once said "Nobody can be a great economist who is only an economist." It must be granted that economists are individuals who can serve multiple roles. For example, an economist might also be an inventor and improve society via technology. He might start a side business and contribute to the economy. Qua economist, his teaching or research might function to improve the technical efficiency of businesses or individuals. So economists can certainly improve society in terms of welfare.
+  - A tougher question is can the economist improve outcomes of the political process. Rational irrationality doesn't suggest that change is impossible. It simply suggests that instrumental appeals are ineffective towards the vast majority of voters. There are still two routes to affect change. It is perfectly possible to make expressive appeals which may be effective. Cool, funny, or otherwise captivating presentations may be examples of actions which economists can take to affect change. Another important approach would be to utilize special interests. Expressive voting largely explains political outcomes, but it does not totally explain them. Gilens and Page (2014), Tullock, and others, have demonstrated that some explanation is attributable to special interests, and economic elites in particular. Economists have a particular appeal among economic elites. These folks tend to think more like economists and are disproportionately involved in financial investment, business management, and other areas where economists are considered thought leaders. Because there is less room for explanation by special interests, it may follow that this is a comparatively less effective means toward change, but I have yet to see concrete evidence for or against that possibility.
+
 
 7 EZ mode questions:
   - Empirically, what determines attitudes toward markets versus government? Do
@@ -79,6 +84,3 @@ reasoning. Is he right or wrong? Why or why not?
 Is he right? If so, is there any way to reformulate the standard view
 in a way that escapes Wittman's criticism? Discuss both theoretical and
 empirical evidence.
-
-
-

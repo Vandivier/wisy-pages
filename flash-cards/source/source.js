@@ -104,6 +104,13 @@ var oCards = {
             }
             },
         {
+            "front": "What are three examples of individual biases discussed by Caplan?",
+            "back": "1) Make Work Bias is the tendancy to underestimate benefits from conserving labor, 2) Status Quo Bias is the tendency to prefer things we are used to, and 3) Anti-Market Bias is the tendency to underestimate the benefits of the market mechanism",
+            "otherInfo": {
+                "class": "public-choice-2-econ-854-caplan"
+            }
+            },
+        {
             "front": "Suppose a politician stands to gain $75,000 by voting in favor of a special interest and against the preferences of the mean and median voters of his district. He will gain the equivalent of $25,000 in favorability if he votes in line with their preferences. There is a 10% chance he might be caught and exposed by a well-meaning reporter if he cooperates with the special interest. What action is he expected to take?",
             "back": "The politician is expected to act in order to maximize expected value. Voters can incentivize his action in their interest with a sufficiently high punishment contingent on being caught. A simple model describing the situation would be B(v) > B(s) - pD => 25000 > 75000 - .1*D => D > 500000. So we would expect the politician to act according to the will of the people if D, the cost of punishment, exceeds $.5M.",
             "otherInfo": {
@@ -123,7 +130,7 @@ var oCards = {
             },
         {
             "front": "What is the SIVH?",
-            "back": "The SIVH is the Self-Interested Voter Hypothesis. It can be defined as the hypothesis that political beliefs and actions of ordinary citizens are, on average, at least 95% selfish.",
+            "back": "The SIVH is the Self-Interested Voter Hypothesis. It can be defined as the hypothesis that political beliefs and actions of ordinary citizens are, on average, at least 95% selfish, using the narrow definition of selfishness which excludes charitable giving and so forth.",
             "otherInfo": {
                 "class": "public-choice-2-econ-854-caplan",
                 "unit": "4",
@@ -150,7 +157,7 @@ var oCards = {
             },
         {
             "front": "How has the SIVH performed empirically?",
-            "back": "At the aggregate level there have been some mixed results. One anti-SIVH result from the SAEE is that the rich are slightly more likely to be Republican than Democratic. A pro-SIVH result is that smokers are opposed to restrictions on smoking, and heavier smokers are more strongly opposed. At the individual level the SIVH flops. Three examples are: 1) The unemployed not much more in favor of relief measures, 2) the rich and people in good health are about as in favor of national health insurance as anyone, and 3) the elderly are equally to slightly less favorable of Social Security and Medicaid compared to the young.",
+            "back": "At the aggregate level there have been some mixed results. One anti-SIVH result from the SAEE is that the rich are only very slightly more likely to be Republican than Democratic. A pro-SIVH result is that smokers are opposed to restrictions on smoking, and heavier smokers are more strongly opposed. At the individual level the SIVH flops. Three examples are: 1) The unemployed not much more in favor of relief measures, 2) the rich and people in good health are about as in favor of national health insurance as anyone, and 3) the elderly are equally to slightly less favorable of Social Security and Medicaid compared to the young.",
             "otherInfo": {
                 "class": "public-choice-2-econ-854-caplan",
                 "unit": "4",
