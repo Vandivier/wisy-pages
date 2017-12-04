@@ -66,6 +66,25 @@ var oCards = {
                 "unit": "Chapter 5",
                 "pageref": "145"
             }
+            },
+        {
+            "front": "Definition of Malemployment",
+            "back": "To be malemployed is to be overqualified. Malemployment occurs when the education or skill of the worker exceeds the education and skill required to perform the job. Studies show a 20-35% malemployment rate is typical.",
+            "otherInfo": {
+                "class": "economics-of-education-econ-895-caplan",
+                "unit": "Chapter 5",
+                "pageref": "102"
+            }
+            },
+        {
+            "front": "How do results from the Transfer of Learning literature in psychology relate to signaling?",
+            "back": "The Transfer of Learning literature shows that learning is highly specific. For example, you don't build general purpose mental muscles by learning Latin.",
+            "otherInfo": {
+                "class": "economics-of-education-econ-895-caplan",
+                "unit": "TODO",
+                "pageref": "TODO",
+                "urlref": "http://econlog.econlib.org/archives/2011/08/the_picoeconomi.html"
+            }
             }
    ]
 }
