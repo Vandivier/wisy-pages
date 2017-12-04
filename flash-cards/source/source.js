@@ -6,7 +6,7 @@ var oCards = {
     "cards": [
         {
             "front": "Why does so much education seem to irrelevant in the real world?",
-            "back": "Two explanations: Signaling and Indirect Learning [TODO: details]",
+            "back": "Two explanations: Signaling and Indirect Learning. The Transfer of Learning literature weakens the case for indirect learning while many factors add up to validate signaling. In particular, employer learning and sheepskin effect data.",
             "otherInfo": {
                 "class": "economics-of-education-econ-895-caplan",
                 "unit": "ideological turing test",
@@ -84,6 +84,15 @@ var oCards = {
                 "unit": "TODO",
                 "pageref": "TODO",
                 "urlref": "http://econlog.econlib.org/archives/2011/08/the_picoeconomi.html"
+            }
+            },
+        {
+            "front": "Lange suggests employer learning is fast, reducing errors by 50% within 3 years. What are 4 reasons Caplan disagrees?",
+            "back": "Caplan thinks employer learning may be slow because it takes up to two decades for sheepskin effects to disappear, employer learning research traditionally neglects noncognitive ability, learning plateaus do not imply perfect knowledge, and signals can affect pay even after employers know true productivity.",
+            "otherInfo": {
+                "class": "economics-of-education-econ-895-caplan",
+                "unit": "TODO",
+                "pageref": "110"
             }
             }
    ]
